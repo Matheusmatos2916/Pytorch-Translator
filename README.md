@@ -1,4 +1,4 @@
-# Python translator
+# Pytorch Translator
 This is a translator project using PyTorch, a popular Python machine learning library. The goal is to create a translation model capable of converting sentences in one language to another.
 
 To start, we chose the WMT14 dataset, which contains English and German sentence pairs. We then create the neural network model using PyTorch. The model consists of an encoder layer and a decoder layer. The encoder takes input, in this case an English sentence, and converts it into a feature array. The decoder then takes this vector and outputs a German sentence.
